@@ -4,6 +4,13 @@ export function TOC() {
   return (
     <div id="wd-toc">
       <p>Bingqiao Qian</p>
+      <a
+        href="https://github.com/chin1230/webdev-client"
+        target="_blank"
+        rel="noreferrer"
+      >
+        My GitHub Repository
+      </a>
       <ul id="wd-toc">
         <li>
           <a href="https://webdev-client.vercel.app/book" target="_blank">
@@ -11,19 +18,27 @@ export function TOC() {
           </a>
         </li>
         <li>
-          <Link href="/labs" id="wd-home-link">Home</Link>
+          <Link href="/labs" id="wd-home-link">
+            Home
+          </Link>
         </li>
 
         <li>
-          <Link href="/labs/lab1" id="wd-lab1-link">Lab 1</Link>
+          <Link href="/labs/lab1" id="wd-lab1-link">
+            Lab 1
+          </Link>
         </li>
 
         <li>
-          <Link href="/labs/lab2" id="wd-lab2-link">Lab 2</Link>
+          <Link href="/labs/lab2" id="wd-lab2-link">
+            Lab 2
+          </Link>
         </li>
 
         <li>
-          <Link href="/labs/lab3" id="wd-lab3-link">Lab 3</Link>
+          <Link href="/labs/lab3" id="wd-lab3-link">
+            Lab 3
+          </Link>
         </li>
 
         <li>
