@@ -13,16 +13,14 @@ export default function AssignmentItem({
 }) {
   return (
     <li className="wd-assignment-list-item">
-      {/* Link the title to /courses/${cid}/assignments/${aid}
-          (className wd-assignment-link), then show details underneath */}
       <Link
         href={`/courses/${cid}/assignments/${aid}`}
         className="wd-assignment-link"
       >
         {title}
-        <br />
-        {details}
       </Link>
+
+      <div>{details}</div>
     </li>
   );
 }
